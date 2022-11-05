@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(35, 165, 106);
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  padding-right: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: rgb(51, 160, 200);
+}
+
+p {
+  color:rgb(126, 35, 165)
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Rock & Roll Bands</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://oasisinet.com/">Oasis</a></li>
+      <li><a href="https://www.blur.co.uk/">Blur</a></li>
+      <li><a href="https://arcticmonkeys.com/">Arctic Monkeys</a></li>
+    </ul>
+  </nav>
+<section>
+  <article>
+    <h1>Oasis</h1>
+    <p>Oasis were an English rock band formed in Manchester in 1991. Originally known as the Rain, the group initially consisted of Liam Gallagher (lead vocals, tambourine), Paul Arthurs (guitar), Paul McGuigan (bass guitar) and Tony McCarroll (drums). Liam's older brother Noel (lead guitar, vocals) later joined as a fifth member, finalising the group's core lineup. During the course of their existence, they had various lineup changes, with the Gallagher brothers remaining the only staple members.</p>
+    <p>As of 2009, Oasis had sold over 70 million records worldwide. They are among the most successful acts on the UK Singles Chart and Albums Chart, with eight UK number-one singles and eight UK number-one albums. The band also achieved three platinum albums in the US. They won 17 NME Awards, nine Q Awards, four MTV Europe Music Awards and six Brit Awards, including one in 2007 for Outstanding Contribution to Music and one for the "Best Album of the Last 30 Years" for (What's the Story) Morning Glory?. They were nominated for two Grammy Awards.</p>
+  </article>
+  <article>
+    <h1>Blur</h1>
+    <p>Blur are an English rock band. Formed in London in 1988, the group consists of singer Damon Albarn, guitarist Graham Coxon, bassist Alex James and drummer Dave Rowntree. Blur's debut album Leisure (1991) incorporated the sounds of Madchester and shoegazing. Following a stylistic change influenced by English guitar pop groups such as the Kinks, the Beatles and XTC, Blur released Modern Life Is Rubbish (1993), Parklife (1994) and The Great Escape (1995). As a result, the band helped to popularise the Britpop genre and achieved mass popularity in the UK, aided by a chart battle with rival band Oasis in 1995 dubbed "The Battle of Britpop".</p>
+    <p>Blur's musical style has been described as Britpop, indie rock, alternative rock, art pop, art rock, and pop rock. The band's music includes influences from indie rock and lo-fi. The band's seventh studio album Think Tank moved into more of an electronic sound. Some of the band's influences include, David Bowie, Bobby Womack, William Onyeabor, the B-52's, the Kinks, Radiohead, Pink Floyd, the Jam and Depeche Mode.</p>
+  </article>
+  <article>
+    <h1>Arctic Monkeys</h1>
+    <p>Arctic Monkeys are an English rock band formed in Sheffield in 2002. The group consists of Alex Turner (lead vocals, guitar, keyboards), Jamie Cook (guitar, keyboards), Nick O'Malley (bass guitar, backing vocals), and Matt Helders (drums, backing vocals). Former band member Andy Nicholson (bass guitar, backing vocals) left the band in 2006 shortly after their debut album was released.</p>
+    <p>In the United Kingdom, the band became the first independent-label band to debut at number one in the UK with their first five albums. The band have won seven Brit Awards; winning Best British Group and British Album of the Year three times, becoming the first band to ever "do the double" (that is, win in both categories) three times; a Mercury Prize for Whatever People Say I Am, That's What I'm Not, an Ivor Novello Award, and 20 NME Awards. In addition, they have been nominated for five Grammy Awards, and received Mercury Prize nominations in 2007, 2013, and 2018. Both Whatever People Say I Am, That's What I'm Not and AM are included in NME's and different editions of Rolling Stone's 500 Greatest Albums of All Time lists.</p>
+  </article>
+</section>
+</section>
+
+<footer>
+  <p>Yi Zhang</p>
+  <a href="https://github.com/isyizhang/245p">My git repo</a>
+</footer>
+
+</body>
+</html>

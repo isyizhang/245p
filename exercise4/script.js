@@ -8,9 +8,14 @@ const books = [
 ]
 
 console.log(bookFilter(books));
+console.log(bookFilter2(books))
 
 function bookFilter(books) {
   return books.filter(book => book.author!=="George Orwell")
+}
+
+function bookFilter2(books) {
+  return books.filter(book => book.author!=="George Orwell" && book.author !== "Herman Melville")
 }
 
 function changeColor() {

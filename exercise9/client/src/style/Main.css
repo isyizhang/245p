@@ -1,0 +1,22 @@
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px 50px;
+  text-align: center;
+}
+
+#ramen {
+  height: 550px;
+}
+
+#sukiyaki {
+  height: 550px;
+}
+
+#sushi {
+  height: 550px;
+}
+
+#restaurant {
+  height: 600px;
+}
